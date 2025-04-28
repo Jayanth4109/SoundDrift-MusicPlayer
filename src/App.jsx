@@ -7,19 +7,21 @@ import Explore from "./pages/Explore";
 import Trending from "./pages/Trending";
 import Podcasts from "./pages/Podcasts";
 import Bookmarks from "./pages/Bookmarks";
+import AppLayout from "./components/AppLayout";
+import MusicCard from "./components/MusicCard";
+import MusicSection from "./components/MusicSection";
 
 function App() {
   return (
     <Router>
-      <div className="flex">
-        <Sidebar />
-        <div className="flex-1 p-6 bg-gray-100 min-h-screen">
+      <div className="flex ">
+        <div className="flex-1 p- bg-gray-100 min-h-screen">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/explore" element={<Explore />} />
-            <Route path="/trending" element={<Trending />} />
-            <Route path="/podcasts" element={<Podcasts />} />
-            <Route path="/bookmarks" element={<Bookmarks />} />
+            <Route path="/" element={ <AppLayout><Home /></AppLayout> } />
+            <Route path="/explore" element={<AppLayout><Explore /></AppLayout>} />
+            <Route path="/trending" element={<AppLayout><Trending /></AppLayout>} />
+            <Route path="/podcasts" element={<AppLayout><Podcasts /></AppLayout>} />
+            <Route path="/bookmarks" element={<AppLayout><Bookmarks /></AppLayout>} />
           </Routes>
         </div>
       </div>
