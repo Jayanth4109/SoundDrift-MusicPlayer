@@ -72,10 +72,11 @@ npm run dev
 ## 📸 Preview
 
 ![Home](Previews/Preview_Home.png)
-![App Screenshot](./assets/Preview_Explore.png)
-![App Screenshot](./assets/Preview_Trending.png)
-![App Screenshot](./assets/Preview_Podcasts.png)
-![App Screenshot](./assets/Preview_Bookmarks.png)
+![Explore](Previews/Preview_Explore.png)
+![Trending](Previews/Preview_Trending.png)
+![Podcasts](Previews/Preview_Podcasts.png)
+![Bookmarks](Previews/Preview_Bookmarks.png)
+
 
 ---
 
