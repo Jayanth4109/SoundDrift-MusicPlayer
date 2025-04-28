@@ -73,8 +73,8 @@ npm run dev
 
 ![Home](Previews/Preview_Home.png)
 ![Explore](Previews/Preview_Explore.png)
-![Trending](Previews/Preview_Trending.png)
-![Podcasts](Previews/Preview_Podcasts.png)
+![Trending](Previews/Preview-Trending.png)
+![Podcasts](Previews/Preview_podcats.png)
 ![Bookmarks](Previews/Preview_Bookmarks.png)
 
 
