@@ -16,8 +16,6 @@ A sleek and modern **React.js** based music player frontend that showcases trend
 
 ---
 
----
-
 ## 🛠️ Tech Stack
 
 - **React.js**
