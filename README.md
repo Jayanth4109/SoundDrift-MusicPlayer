@@ -16,23 +16,6 @@ A sleek and modern **React.js** based music player frontend that showcases trend
 
 ---
 
-## 📂 Project Structure
-
-```
-/public
-/src
-  ├── assets/
-  ├── components/
-  │     ├── MusicCard.jsx
-  │     ├── MusicCardHorizontal.jsx
-  │     ├── MusicSection.jsx
-  │     └── MusicSectionHorizontal.jsx
-  ├── data/
-  │     └── songs.json
-  ├── App.jsx
-  └── index.html
-```
-
 ---
 
 ## 🛠️ Tech Stack
